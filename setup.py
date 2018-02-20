@@ -11,10 +11,11 @@ setup(name="systeminfo",
       url="",
       author="Linda Smith",
       author_email="linda.smithjameson@ucdconnect.ie",
-      license="GPL3",
-      packages=['systeminfo'],
+      license="MIT",
+      package_dir={'':'systeminfo'},
+      packages=[''],
       entry_points={
-          'console_scripts':['comp30670_systeminfo=systeminfo.main:main']
+          'console_scripts':['comp30670_systeminfo=systeminfo.sysinfo:getplatforminfo']
           }
       )
 

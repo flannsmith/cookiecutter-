@@ -5,9 +5,8 @@ Created on 13 Feb 2018
 '''
 import platform
 
-def main():
-    print(platform.platform())
-    return
+def getplatforminfo():
+    return platform.platform()
 
 if __name__ == '__main__':
-    main()
+    getplatforminfo()
